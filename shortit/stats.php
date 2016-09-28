@@ -36,6 +36,12 @@ else {
     $visits=$row['visits'];
     $adr=$row['url'];
   }
+    else {
+    header("Location: index.php");
+    die();
+
+  }
+
 
 }
 ?>
