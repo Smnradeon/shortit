@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  overflow-x: hidden;
+}
+
+/*properties of navbar*/
+.navbar {
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+    font-family: Lato;
+    background-color: #00ccff !important;
+    z-index: 9999;
+    border: 0 !important;
+    font-size: 17px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 3px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #00ccff !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/*jumbotron text edits */
+.jumbotron {
+  background-color: #00ccff !important;
+  color:#fff !important;
+  margin-bottom:0px !important;
+}
+.jumbotron h1 {
+  font-size:50px !important;
+  font-family: Dosis;
+  text-shadow: 3px 3px 1px #008fb3;
+}
+
+.jumbotron p {
+  font-size:22px !important;
+  font-family: Lato;
+}
+
+/*form in jumbotron*/
+.form-jumbo {
+  height: 44px !important;
+  background-color:#e6faff;
+  color:#fff;
+  border-radius: 10px;
+  border-color: #005266;
+  box-shadow: 10px 10px 5px #008fb3;
+}
+
+.form-jumbo:hover {
+background-color: #e6faff;
+}
+
+/*features*/
+.features {
+  color: #00a3cc;
+}
+
+.feeatues h3 {
+  color: #005266;
+  font-family: Dosis;
+}
+
+.features p {
+  color: #00ccff;
+  font-family: Lato;
+}
+
+.form-feature {
+  height: 44px !important;
+  background-color:#e6faff;
+  color:#fff;
+  border-radius: 15px;
+  border-color: #005266;
+  box-shadow: 1px 1px 0.5px #008fb3;
+
+}
+/*about*/
+
+.about {
+  background-color: #00ccff;
+  color:white;
+}
+
+.about h1 {
+  font-family: Dosis;
+  font-size:29px;
+}
+
+.about p {
+  font-family: Lato;
+  font-size:20px;
+}
+
+/*arrow bounce animation (copied and modified)*/
+.bounce {
+  position:relative;
+  left:50%;
+  bottom:0;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+
+/*contact*/
+.contact {
+  color:#008fb3;
+  font-family: Lato;
+  font-size:20px;
+}
+
+.contact h1{
+  font-family: Dosis;
+  color: #008fb3;
+}
